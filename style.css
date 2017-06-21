@@ -52,6 +52,7 @@
 	background-color: #497eab;
 	border-radius: 10px;
 	box-shadow: 2px 2px black;
+	margin: 0px 5%;
 }
 #nav_bar a{
 	flex:	1;
@@ -64,5 +65,26 @@
 }
 #nav_bar li {
 	list-style: none;
+}
+#upper_part {
+	display: flex;
+	margin: 0px 5%;
+}
+#upper_part ul {
+	flex: 1
+}
+#upper_part ul li{
+	list-style: none;
+	text-align: center;
+}
+#upper_part ul li a{
+	color: white;
+}
+#center_content {
+	flex: 3;
+}
+#upper_part li .yellow_arrow {
+	font-size: 10px;
+	color: #dfbf48;
 }
 
