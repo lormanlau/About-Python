@@ -26,6 +26,7 @@
 }
 .yellow {
 	color: #dfbf48;
+	font-weight: normal; 
 }
 #search_bar_outline {
 	background-color: #444444;
@@ -76,15 +77,26 @@
 #upper_part ul li{
 	list-style: none;
 	text-align: center;
+	margin: 10px 0px;
 }
 #upper_part ul li a{
 	color: white;
 }
 #center_content {
 	flex: 3;
+	text-align: center;
 }
 #upper_part li .yellow_arrow {
 	font-size: 10px;
 	color: #dfbf48;
 }
-
+.unbold {
+	font-weight: normal;
+}
+#lower_part_border {
+	background-color: #1c3c58;
+}
+#lower_part {
+	margin-top: 5px;
+	background-color: white;
+}
