@@ -108,6 +108,12 @@
 }
 .bottom_box h2{
 	border-top: 5px solid #a8c8e3;
+	font-weight: normal;
+	font-size: 20px;
+	margin: 10px auto 0px auto;
+}
+.bottom_box p {
+	margin: 5px auto;
 }
 .bottom_box li {
 	color: black;
@@ -117,6 +123,14 @@
 	color: #a8c8e3;
 	text-decoration: none;
 }
-#lightblue {
+.lightblue {
 	color: #a8c8e3;
+}
+#footer {
+	display: flex;
+	padding: 20px 10%;
+}
+#footer a {
+	flex: 1;
+	text-align: center;
 }
