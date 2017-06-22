@@ -128,9 +128,23 @@
 }
 #footer {
 	display: flex;
+	flex-direction: column;
 	padding: 20px 10%;
+	background: linear-gradient( 0deg, #3674a8, #265175 );
 }
-#footer a {
+#links {
+	display: flex;
+}
+#footer #links a {
 	flex: 1;
 	text-align: center;
+	text-decoration: none;
+	color: #6da1cc;
+	padding: 10px;
+}
+#copyright {
+	margin: 0px;
+	text-align: center;
+	font-size: 10px;
+	color: #6da1cc;
 }
