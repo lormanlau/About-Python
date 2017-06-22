@@ -95,5 +95,28 @@
 	font-weight: normal;
 }
 #lower_part {
+	border-top: 2px solid #1b3a55;
 	background-color: white;
+	color:black;
+	display: flex;
+	padding: 0px 10%;
+}
+.bottom_box{
+	flex: 1;
+	text-align: center;
+	margin: 0px 5%;
+}
+.bottom_box h2{
+	border-top: 5px solid #a8c8e3;
+}
+.bottom_box li {
+	color: black;
+	list-style: square;
+}
+.bottom_box li a {
+	color: #a8c8e3;
+	text-decoration: none;
+}
+#lightblue {
+	color: #a8c8e3;
 }
